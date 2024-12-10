@@ -1,0 +1,274 @@
+body {
+    background: url('2da1f94d-4748-46c4-bef8-d2a739df66e3.jpg') center/cover no-repeat fixed;
+    padding: 20px;
+  }
+  
+
+  .container-fluid, .container {
+    max-width: 1100px; /* عرض الموقع */
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  .navbar {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  .nav-link {
+    color: black;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+
+  .nav-link:hover {
+    color: #555;
+  }
+
+  .nav-group {
+    display: flex;
+    gap: 15px;
+  }
+
+  /* تصميم القسم الرئيسي */
+  .hero-section {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background: url('pexels-pixabay-164595.jpg') center/cover no-repeat;
+  }
+
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+    font-style: italic;
+  }
+
+  /* تصميم القائمة الجانبية */
+  .nav-mobile {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: left 0.3s ease;
+    z-index: 1050;
+    padding: 20px;
+  }
+
+  .nav-mobile.active {
+    left: 0;
+  }
+
+  .nav-mobile a {
+    display: block;
+    margin-bottom: 15px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .nav-mobile a:hover {
+    color: #555;
+  }
+
+  .navbar-toggler-icon {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    display: block;
+    position: relative;
+  }
+
+  .navbar-toggler-icon::before,
+  .navbar-toggler-icon::after {
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    transition: 0.3s;
+  }
+
+  .navbar-toggler-icon::before {
+    top: -8px;
+  }
+
+  .navbar-toggler-icon::after {
+    top: 8px;
+  }
+  .styled-section {
+          padding: 50px 0;
+          background-color: #f9f9f9;
+      }
+
+      .styled-section .text-content {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          height: 100%;
+      }
+
+      .styled-section h2 {
+          font-size: 2rem;
+          margin-bottom: 20px;
+          font-weight: bold;
+      }
+
+      .styled-section p {
+          font-size: 1rem;
+          line-height: 1.5;
+          margin-bottom: 20px;
+      }
+
+      .styled-section .btn {
+          background-color: #6c757d;
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          text-transform: uppercase;
+      }
+
+      .styled-section .image-content img {
+          max-width: 100%;
+          border-radius: 5px;
+      }
+      .three-column-section {
+          padding: 50px 0;
+          background-color: #f9f9f9;
+      }
+
+      .three-column-section .card {
+          border: none;
+          text-align: center;
+      }
+
+      .three-column-section .card img {
+          border-radius: 5px;
+          max-height: 200px;
+          object-fit: cover;
+      }
+
+      .three-column-section .card-title {
+          font-size: 1.2rem;
+          margin-top: 15px;
+          font-weight: bold;
+      }
+
+      .three-column-section .btn {
+          background-color: #6c757d;
+          color: white;
+          border: none;
+          margin-top: 10px;
+          text-transform: uppercase;
+          padding: 10px 20px;
+      }
+
+      .three-column-section .btn:hover {
+          background-color: #5a6268;
+      }
+    
+    .section-container {
+      background-color: #f7f3e9;
+      padding: 50px 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .section-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 30px;
+      color: #333;
+    }
+    .icon-box {
+      margin-bottom: 20px;
+    }
+    .icon-box i {
+      font-size: 36px;
+      color: #6c757d;
+    }
+    .card-text {
+      font-size: 14px;
+      color: #555;
+    }
+    
+    .testimonials-section {
+          padding: 60px 20px;
+          color: #333;
+      }
+      .testimonials-title {
+          font-size: 28px;
+          font-weight: bold;
+          margin-bottom: 40px;
+          color: #2c3e50;
+      }
+      .testimonial-text {
+          font-size: 18px;
+          font-style: italic;
+          margin-bottom: 20px;
+          color: #555;
+      }
+      .testimonial-author {
+          font-weight: bold;
+          margin-top: 10px;
+          color: #2c3e50;
+      }
+      .testimonial-image {
+          width: 100%;
+          height: auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .info-box {
+          background-color: #f4f6f9;
+          padding: 30px;
+          border-radius: 8px;
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      }
+      .info-box h5 {
+          font-size: 20px;
+          font-weight: bold;
+          margin-bottom: 15px;
+          color: #2c3e50;
+      }
+      .info-box p {
+          font-size: 16px;
+          line-height: 1.6;
+          color: #555;
+      }
+      .row {
+          align-items: center;
+      }
+      @media (max-width: 768px) {
+          .info-box {
+              margin-top: 20px;
+          }
+      }
